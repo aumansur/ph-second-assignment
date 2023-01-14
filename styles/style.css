@@ -74,3 +74,43 @@ margin-bottom: 40px;
     margin-top: 40px;
 }
 /* hero section style end  */
+
+/* quick section start */
+.quckwrapp{
+    display: flex;
+}
+.quickImages{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.teamImage img{
+    width: 100%;
+}
+.quickText{
+    margin-left: 75px;
+    width: 537px;
+    height: 304px;
+    margin-top: 90px;
+
+  
+}
+
+.quickText h2{
+    font-weight: 500;
+font-size: 45px;
+}
+.quickText p{
+    color: #727272;
+    font-weight: 400;
+font-size: 16px;
+}
+
+.qucikList{
+    color: #727272;   
+}
+.features{
+    color: #FF900E;  
+}
+
+/* quick section end */
