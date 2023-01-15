@@ -320,11 +320,12 @@ body {
 @media only screen and (max-width: 600px) {
   .container {
     width: 100%;
+    overflow: hidden;
   }
   .quickImages,
   .designWrapper,
   .someFactIconWrapper {
-    margin: 0 24px;
+   
     grid-template-columns: 1fr;
   }
   .headerWrapper,
