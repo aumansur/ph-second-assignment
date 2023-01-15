@@ -114,3 +114,86 @@ font-size: 16px;
 }
 
 /* quick section end */
+
+/* experience section style start  */
+.experienceWrapper{
+    display: flex;
+}
+.experienceTitle h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    width: 468px;
+    padding-left: 20px;
+    border-left:4px solid #FF900E;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.experienceTitle p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 486px; 
+    color: #727272;
+}
+.experienceInfo{
+    padding-left: 20px;
+}
+.experienceInfo h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+    margin-bottom: 0px;
+    margin-top: 40px;
+
+}
+.experienceInfo p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 486px; 
+    color: #727272;
+    margin-top: 10px;
+
+}
+.experienceImage{
+  
+}
+.experienceImage img{
+    width: 100%;
+}
+.experienceBtn h1{
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+
+}
+.experienceBtn p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+}
+.experienceBtn{
+    position: relative;
+    bottom: 149px;
+    left: 0;
+    z-index: 100;
+    width: 275px;
+    height: 145px;
+     color: #fff;
+     background:  #FF900E 10%;
+     border:none  ;
+     font-size: 18px;
+     padding: 10px;
+     border: radius 5px;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     -ms-border-radius:5px;
+     -o-border-radius:5px;
+}
+
+
+/* experience section style end */
