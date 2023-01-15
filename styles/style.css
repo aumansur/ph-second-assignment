@@ -196,6 +196,30 @@ font-size: 16px;
 }
 /* experience section style end */
 
+/* UI/UX design style start  */
+.uiuxTitle{
+    /* width: 500px; */
+    margin: auto;
+}
+.uiuxTitle h1{
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+}
+.designWrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.singleDesignImg img{
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+/* UI/UX design style end */
+
 /* some fact style start */
 .somefactTitle{
   font-weight: 700;
@@ -224,6 +248,18 @@ font-size: 16px;
     border-radius: 8px;
     align-items: center;
 
+}
+.singleIconBox:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 .singleIconBox img{
   
@@ -279,7 +315,7 @@ font-size: 16px;
 .footer{
     width: 620px;
     margin: auto;
-    height: 150px;
+    
 }
 .footer p{
 font-size: 20;
