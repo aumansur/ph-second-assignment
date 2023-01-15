@@ -178,7 +178,7 @@ font-size: 16px;
 }
 .experienceBtn{
     position: relative;
-    bottom: 149px;
+    bottom: 100px;
     left: 0;
     z-index: 100;
     width: 275px;
@@ -194,6 +194,97 @@ font-size: 16px;
      -ms-border-radius:5px;
      -o-border-radius:5px;
 }
-
-
 /* experience section style end */
+
+/* some fact style start */
+.somefactTitle{
+  font-weight: 700;
+  font-size: 45px; 
+  color: #131313; 
+  margin-bottom: 0;
+}
+.somefactDescription{
+    width: 540px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.someFactIconWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.singleIconBox{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+
+}
+.singleIconBox img{
+  
+    align-items: center;
+    margin-top: 35px;
+}
+.singleIconBox h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin: 0;
+    align-items: center;
+}
+.singleIconBox p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    margin: 0;
+    align-items: center;
+}
+/* some fact style end */
+
+/* sponspor section style start  */
+.sponsporText{
+    width: 542px;
+    height: 129px;
+   text-align: center;
+   margin: auto;
+}
+.sponsporText h2{
+   font-size: 45px;
+   font-weight: 700;
+   color:#131313;
+   margin-bottom: 0;
+   margin-top: 120px;
+}
+.sponsporText p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsporIconWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.singleIcon img{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+/* sponspor section style end  */
+
+/* footer */
+.footer{
+    width: 620px;
+    margin: auto;
+    height: 150px;
+}
+.footer p{
+font-size: 20;
+font-weight: 400;
+color: #424242;
+text-align: center;
+margin-top: 100px;
+}
